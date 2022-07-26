@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Panda Commerce</title>
-    <!-- Bootstrap cdn -->
+    <!-- Bootstrap cdn link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/5d5e481088.js" crossorigin="anonymous"></script>
     
   </head>
+
   <body>
 
     <header>
@@ -19,9 +20,11 @@
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Panda commerce logo">
               </a>
+              <!-- Navbar toggle button -->
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+              <!-- Nav items starts -->
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
@@ -38,12 +41,16 @@
                   </li>
                 </ul>
               </div>
+              <!-- Nav items ends -->
+
+              <!-- Navbar search -->
               <form class="d-flex d-sm-none d-md-none d-lg-block" role="search">
                 <div class="input-group">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success input-group-text" type="submit">Search</button>
                 </div>               
               </form>
+
             </div>
             
         </nav>    
@@ -55,6 +62,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active p-5 rounded-4" style="background-color:#FCEAE8 ;">
                   <div class="row">
+                    <!-- Slider items -->
                     <div class="col-md-7 d-flex align-items-center">
                       <div>
                         <h1>Cool Dude Headphone</h1>
@@ -68,7 +76,7 @@
                     </div>    
                   </div>       
                 </div>
-            
+                <!-- Slider items -->
                 <div class="carousel-item p-5 rounded-4" style="background-color:#FCEAE8 ;">
                   <div class="row">
                     <div class="col-md-7 d-flex align-items-center">
@@ -84,7 +92,7 @@
                     </div>    
                   </div>       
                 </div>
-              
+                <!-- Slider items -->
                 <div class="carousel-item p-5 rounded-4" style="background-color:#FCEAE8 ;">
                   <div class="row">
                     <div class="col-md-7 d-flex align-items-center">
@@ -101,7 +109,7 @@
                   </div>       
                 </div>
               </div>
-
+              <!-- Slider control button  -->
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -110,6 +118,7 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
+
             </div> 
         </section>
         <!-- Slider ends -->
@@ -120,18 +129,21 @@
       <!-- Cagatories starts -->
       <section  class="container my-5">
         <div class="row g-4">
+          <!-- 1st catagory -->
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="p-4 bg-warning border rounded-2 d-flex align-items-center justify-content-between" >
               <h2 class="text-white ">Watch</h2>
               <img src="images/categories/watch.png" width="100px" height="100px" alt="">
             </div>           
           </div>
+          <!-- 2nd catagory -->
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="p-4 border rounded-2 d-flex align-items-center justify-content-between"  style="background-color:#DA70D6 ;">
               <h2 class="text-white">Bag</h2>
               <img src="images/categories/bag.png" width="100px" height="100px" alt="">
             </div>          
           </div>
+          <!-- 3rd catagory -->
           <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="p-4 border rounded-2 d-flex align-items-center justify-content-between" style="background-color:#0000FF ;" >
               <h2 class="text-white">Shoes</h2>
@@ -148,7 +160,7 @@
           <h2 class="mb-2">Shoes</h2>
           <div class="row g-4" >
             <div class="col-md-4 col-sm-12">
-              <div class="card shadow p-3 border-0 rounded">
+              <div class="card shadow-lg p-3 border border-0 rounded">
                 <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Supply 350</h5>
@@ -159,7 +171,7 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-12">
-              <div class="card shadow p-3 border-0 rounded">
+              <div class="card shadow-lg p-3 border border-0 rounded">
                 <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Nike 360</h5>
@@ -170,7 +182,7 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-12 ">
-              <div class="card shadow p-3 border-0 rounded">
+              <div class="card shadow-lg p-3 border border-0 rounded">
                 <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Red Airmax</h5>
@@ -190,7 +202,7 @@
         <h2>Backpack</h2>
         <div class="row g-4" >
             <div class="col-md-4 col-sm-12">
-              <div class="card shadow p-3 border-0 rounded">
+              <div class="card shadow-lg p-3 border border-0 rounded">
                 <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Red Bag</h5>
@@ -202,7 +214,7 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-12">
-              <div class="card shadow p-3 border-0 rounded">
+              <div class="card shadow-lg p-3 border border-0 rounded">
                 <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Blue bag</h5>
@@ -214,7 +226,7 @@
               </div>
             </div>
             <div class="col-md-4 col-sm-12 ">
-              <div class="card shadow p-3 border-0 rounded">
+              <div class="card shadow-lg p-3 border border-0 rounded">
                 <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Black bag</h5>
@@ -227,6 +239,9 @@
             </div>        
            </div>
       </section>
+      <!-- Backpack items ends -->
+
+      <!-- Get updates starts -->
       <section class="container rounded-3 my-4" style="background-color: #FCEAE8;">
         <div class="row d-flex justify-content-center align-items-center" style="height:400px ;">
           <div class="col-4">
@@ -237,12 +252,17 @@
           </div>
         </div>
       </section>
-      <!-- Backpack items ends -->
+      <!-- Get updates ends -->  
+
     </main>
+
+    <!-- Footer sections starts -->
     <footer class="container text-center mt-2 d-flex align-items-end justify-content-center" style="height: 150px ;"> 
       <p class="text-muted">©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
     </footer>
-     
+     <!-- Footer sections ends -->
+
+     <!-- Bootstrap javascript cnd link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
