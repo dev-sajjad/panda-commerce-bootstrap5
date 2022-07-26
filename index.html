@@ -13,9 +13,9 @@
 
   <body>
 
-    <header>
+    <header id="home">
         <!-- Navbar starts -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top mb-4 d-block navbar-expand-lg navbar-light bg-light" style="max-height: 60px ;">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="Panda commerce logo">
@@ -28,23 +28,23 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
               <!-- Nav items ends -->
 
               <!-- Navbar search -->
-              <form class="d-flex d-sm-none d-md-none d-lg-block" role="search">
+              <form class="d-flex d-xs-none d-sm-none d-md-none d-lg-block" role="search">
                 <div class="input-group">
                   <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success input-group-text" type="submit">Search</button>
@@ -127,7 +127,7 @@
 
     <main>
       <!-- Cagatories starts -->
-      <section  class="container my-5">
+      <section id="catagory" class="container my-5">
         <div class="row g-4">
           <!-- 1st catagory -->
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -242,7 +242,7 @@
       <!-- Backpack items ends -->
 
       <!-- Get updates starts -->
-      <section class="container rounded-3 my-4" style="background-color: #FCEAE8;">
+      <section id="subscribe" class="container rounded-3 my-4" style="background-color: #FCEAE8;">
         <div class="row d-flex justify-content-center align-items-center" style="height:400px ;">
           <div class="col-4">
             <h2>LET'S STAY IN TOUCH</h2>
